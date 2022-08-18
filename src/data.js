@@ -3,6 +3,7 @@ export const data = {
     {
       questionid: 1,
       question: "Select your data",
+      selectedoption:"",
       questiontype: "Radio",
       attributetype: 2,
       validation: true,
@@ -12,7 +13,7 @@ export const data = {
           optionvalue: "A",
           price: 1800,
           optionaction: "",
-          selected: false,
+          selected: true,
           subquestion: [],
         },
         {
@@ -36,6 +37,7 @@ export const data = {
     {
       questionid: 2,
       question: "Do you want a bike",
+      selectedoption:"",
       questiontype: "Radio",
       attributetype: 2,
       validation: false,
@@ -61,6 +63,7 @@ export const data = {
     {
       questionid: 3,
       question: "Date & Time Slot",
+      selectedoption:"",
       questiontype: "Date",
       attributetype: 4,
       validation: false,
@@ -78,6 +81,7 @@ export const data = {
     {
       questionid: 4,
       question: "package selection test",
+      selectedoption:"",
       questiontype: "Radio",
       attributetype: 3,
       validation: false,
@@ -111,6 +115,7 @@ export const data = {
     {
       questionid: 6,
       question: "Enter Your exprience details",
+      selectedoption:"",
       questiontype: "Textarea",
       attributetype: 2,
       validation: false,
@@ -128,6 +133,7 @@ export const data = {
     {
       questionid: 7,
       question: "testing check box",
+      selectedoption:"",
       questiontype: "Checkbox",
       attributetype: 1,
       validation: false,
